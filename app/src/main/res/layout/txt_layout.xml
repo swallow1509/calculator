@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<!--    <TextView-->
+<!--        android:id="@+id/tv_user_input"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAlignment="textEnd"-->
+<!--        android:textSize="50sp"-->
+<!--        android:textColor="#575757"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_user_input_down"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/input"-->
+<!--        android:textAlignment="textEnd"-->
+<!--        android:textSize="50sp"-->
+<!--        android:textColor="#575757"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_user_ans"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAlignment="textEnd"-->
+<!--        android:text="@string/result"-->
+<!--        android:textSize="80sp"-->
+<!--        android:textColor="#000000"/>-->
+    <TextView
+        android:id="@+id/first_operand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViews"
+        android:textAlignment="textEnd"
+        android:maxLines="1"
+        android:textSize="30sp"
+        android:textColor="#575757"/>
+
+    <TextView
+        android:id="@+id/tv_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViews"
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
+        android:textColor="#575757"/>
+
+    <TextView
+        android:id="@+id/sec_operand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViews"
+        android:textAlignment="textEnd"
+        android:maxLines="1"
+        android:textSize="30sp"
+        android:textColor="#575757"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <TextView
+            android:id="@+id/tv_answer"
+            style="@style/TextViews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textSize="40sp"
+            android:textColor="#575757"/>
+    </HorizontalScrollView>
+
+
+</LinearLayout>
